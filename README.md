@@ -52,5 +52,13 @@ Desviación Estándar:
 Moda:
   - No hay moda en los datos
 
+Para el PIB en millones y la población:
+- Covarianza: 113,233,718,703,629.06
+- Correlación: 0.9552502783564497
+
+Para el PIB en millones y el PIB per cápita en millones:
+- Covarianza: 466,198,063.93045557
+- Correlación: 0.5254075147557418
+
   
   
