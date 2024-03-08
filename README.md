@@ -34,4 +34,18 @@
 | Valle del Cauca                          | 139863153.5           | 4475886        | 31.2481492                       |
 | Vaupés                                   | 381851.6785           | 40797          | 9.359797989                      |
 | Vichada                                  | 956576.6785           | 107808         | 8.872965629                      |
-
+Datos:
+  Media (Promedio):
+    promedio_PIB_DEPARTAMENTOS:44318861.80599092
+    promedio_POBLACION:1462378.606060606
+    promedio_PIB_per_capita:24.407855870242425
+  Mediana:
+    mediana de los Datos es 17.0
+  Desviación Estándar:
+    Desviación estándar de PIB en Millones: 71673456.53928636
+    Desviación estándar de Población: 1705549.0329603895
+    Desviación estándar de PIB per cápita en Millones: 12.766733645850927
+  Moda:
+     No hay moda en los datos
+  
+  
