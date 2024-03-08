@@ -34,6 +34,8 @@
 | Valle del Cauca                          | 139863153.5           | 4475886        | 31.2481492                       |
 | Vaupés                                   | 381851.6785           | 40797          | 9.359797989                      |
 | Vichada                                  | 956576.6785           | 107808         | 8.872965629                      |
+
+
 Datos:
   Media (Promedio):
     promedio_PIB_DEPARTAMENTOS:44318861.80599092
