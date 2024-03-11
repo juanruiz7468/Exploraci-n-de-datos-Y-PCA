@@ -134,7 +134,7 @@ Para el PIB en millones y el PIB per cápita en millones:
 
   -Crear una tabla para mostrar las primeras 5 caras utilizando, la mean face + los datos reconstruidos utilizando la primera componente, después con 3 componentes, después con las primeras 20 componentes, después con las componentes que explican el 95% de la varianza y por último con el numero de componentes que tiene el 99% de la varianza. ¿Qué se puedeconcluir de los resultados?:
   ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/a20ef5b4-3b89-43ac-8c76-e7d65ea9b4e9)
-  se concluye que entre mas componentes yo utilize y se los sume a la media , mejor se vera la cara con 161 componentes ya estoy representando con exactitud el 99% de los datos.
+  se concluye que entre mas componentes yo utilize y se los sume a la media , mejor se vera la cara ademas , de que con 161 componentes ya estoy representando con exactitud el 99% de los datos por lo tanto es irrelevantes utilizar mas de 161 componentes.
 
 
     
