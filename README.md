@@ -62,5 +62,64 @@ Para el PIB en millones y el PIB per cápita en millones:
 1. **Covarianza**: La covarianza es una medida de la relación lineal entre dos variables. Indica si las variables tienden a aumentar o disminuir juntas. Si la covarianza es positiva, significa que las dos variables tienden a aumentar o disminuir juntas. Si es negativa, significa que una variable tiende a aumentar mientras que la otra tiende a disminuir. Sin embargo, la covarianza no proporciona información sobre la fuerza o la intensidad de la relación entre las variables. Por lo tanto, es difícil interpretar su magnitud en términos de la fuerza de la relación.
 
 2. **Correlación**: La correlación, por otro lado, es una medida estandarizada que indica la fuerza y la dirección de la relación lineal entre dos variables. A diferencia de la covarianza, la correlación está limitada a valores entre -1 y 1. Un coeficiente de correlación cercano a 1 indica una relación lineal positiva fuerte, mientras que un coeficiente cercano a -1 indica una relación lineal negativa fuerte. Un coeficiente de correlación cercano a 0 indica una relación débil o nula. Por lo tanto, la correlación no solo indica la dirección de la relación, sino también la fuerza de la relación entre las variables.
-  
+
+2. **PCA**:
+-Matriz de covarianza:
+|          | Variable 1 | Variable 2 | Variable 3 |
+|----------|------------|------------|------------|
+| Variable 1 | 1.03125    | 0.98510185 | 0.5418265  |
+| Variable 2 | 0.98510185 | 1.03125    | 0.4212694  |
+| Variable 3 | 0.5418265  | 0.4212694  | 1.03125    |
+
+| EigenValues |
+|-------------|
+| 2.36491665  |
+| 0.03659132  |
+| 0.69224202  |
+
+| EigenVectores|
+|---------------------------|
+| -0.64120229               |
+| -0.61751702               |
+| -0.45555718               |
+
+| Datos Proyectados |
+|-------------------|
+|  1.28167345       |
+| -3.66356153       |
+|  0.46923492       |
+| -0.59807495       |
+| -5.89277461       |
+| -0.30317836       |
+| -0.13250718       |
+|  0.37062885       |
+|  1.13492648       |
+| -0.58372383       |
+|  0.41495487       |
+| -0.09012447       |
+|  1.16695117       |
+|  0.4340836        |
+| -1.22521294       |
+|  1.42771627       |
+|  1.292087         |
+|  0.41132039       |
+|  0.38261347       |
+|  0.61904339       |
+| -1.12516417       |
+|  0.54349679       |
+|  0.50673639       |
+|  1.06118998       |
+|  0.71628864       |
+|  0.34816069       |
+|  0.52611842       |
+| -1.34731502       |
+|  0.92626206       |
+|  0.22997664       |
+| -2.22387303       |
+|  1.46713265       |
+|  1.45491398       |
+
+-Error:Error Cuadrático Medio (MSE): 0.2286218284334619
+
+
   
