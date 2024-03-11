@@ -65,6 +65,7 @@ Para el PIB en millones y el PIB per cápita en millones:
 
 2. **PCA**:
 -Matriz de covarianza:
+
 |          | Variable 1 | Variable 2 | Variable 3 |
 |----------|------------|------------|------------|
 | Variable 1 | 1.03125    | 0.98510185 | 0.5418265  |
