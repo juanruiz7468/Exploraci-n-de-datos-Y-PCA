@@ -121,6 +121,7 @@ Para el PIB en millones y el PIB per cápita en millones:
 |  1.45491398       |
 
 -Error:Error Cuadrático Medio (MSE): 0.2286218284334619
+
 -Varianza Explicada = 2.36491665 / (2.36491665 + 0.03659132 + 0.69224202) ≈ 0.7639
 
 
