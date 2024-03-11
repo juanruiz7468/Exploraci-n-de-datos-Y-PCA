@@ -124,6 +124,14 @@ Para el PIB en millones y el PIB per cápita en millones:
 
 -Varianza Explicada = 2.36491665 / (2.36491665 + 0.03659132 + 0.69224202) ≈ 0.7639
 
+3.**PCA**
+
+  -Calcular la mean face. Que es la cara con el promedio de los pixeles y
+    visualizarla
+    ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/0b8f5c1e-6a02-4e5c-b9e2-e1be999beb2b)
+
+    
+
 
 
   
