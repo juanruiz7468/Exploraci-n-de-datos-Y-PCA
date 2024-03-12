@@ -171,6 +171,38 @@ Para el PIB en millones y el PIB per cápita en millones:
   It is not normal Wheelbase
   It is normal Length
 
+  -Variables categóricas debes crear un boxplot. Explique cómo interpreta el gráfico:
+  ![newplot (10)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/6808ff24-db42-4f15-a3ae-67bcda53819b)
+
+  ![newplot (11)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/a94470ed-e37f-4bb3-917d-e7498a49459e)
+
+  ![newplot (12)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/1ae21c81-08c4-4ad0-8883-63f433c524bd)
+
+  ![newplot (13)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/cee7c49d-99c8-4625-9a67-aabb66bf543a)
+
+  ![newplot (14)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/2bc3c2f7-885b-4ef4-b745-70e8dd95abba)
+
+  -Variables numéricas vas a crear un scatter plot.Explique cómo interpreta el gráfico:
+  ![newplot (15)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/628723ec-d249-47ec-893d-425059371b75)
+
+  ![newplot (16)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/081756f4-e80b-40cf-bfbb-fd42820942a6)
+
+  ![newplot (17)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/6fc87b10-dc21-4224-b947-074072b01d15)
+
+  ![newplot (18)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/3a3b8e21-4760-4611-bb57-2b61ab8394ab)
+
+  ![newplot (19)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/a2fd655f-d726-4014-af3b-6424ae6015be)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
