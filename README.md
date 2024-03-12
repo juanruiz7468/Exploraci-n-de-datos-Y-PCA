@@ -193,6 +193,10 @@ Para el PIB en millones y el PIB per cápita en millones:
 
   ![newplot (19)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/a2fd655f-d726-4014-af3b-6424ae6015be)
 
+  -Cree la matriz de correlación, cuales son las variables más importantes para explicar la variabilidad de MPG_City. Explique por qué el coeficiente es negativo o positivo:
+  ![newplot (20)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/6f44a7e9-96ab-49fb-8151-152b19141eb9)
+
+
 
 
 
