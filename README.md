@@ -147,6 +147,36 @@ Para el PIB en millones y el PIB per cápita en millones:
 
   ![newplot (4)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/0bac5d9a-0b88-4518-99a6-f67d5b202f27)
 
+  -Para las variables numéricas crear histogramas. Listar los modelos de carros que están más lejos de 5 estándares de desviación, y serían considerados outliers. Hacer test de si es una distribución normal o no:
+  ![newplot (5)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/fc312f4a-8a69-49d7-9cf1-292fa7c86d70)
+
+  ![newplot (6)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/fcc147aa-4f69-4e69-b2c8-9e4faffe9176)
+
+  ![newplot (7)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/a40f0c0e-b6a0-4520-9623-afbf9d4ed477)
+
+  ![newplot (8)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/763c0378-003b-44a0-b0f0-2411e58a5776)
+
+  ![newplot (9)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/ee2e7996-93a6-4dca-91cc-feef96ad36f8)
+
+  Modelos de automóviles con valores atípicos (más de 5 desviaciones estándar) en MPG_City:
+  150    Insight 2dr (gas/electric)
+  373      Prius 4dr (gas/electric)
+
+  Modelos de automóviles con valores atípicos (más de 5 desviaciones estándar) en MPG_Highway:
+  150    Insight 2dr (gas/electric)
+
+  It is not normal MPG_City
+  It is not normal MPG_Highway
+  It is not normal Weight
+  It is not normal Wheelbase
+  It is normal Length
+
+
+
+
+
+  
+
 
 
 
