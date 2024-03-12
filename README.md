@@ -136,6 +136,23 @@ Para el PIB en millones y el PIB per cápita en millones:
   ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/a20ef5b4-3b89-43ac-8c76-e7d65ea9b4e9)
   se concluye que entre mas componentes yo utilize y se los sume a la media , mejor se vera la cara ademas , de que con 161 componentes ya estoy representando con exactitud el 99% de los datos por lo tanto es irrelevantes utilizar mas de 161 componentes.
 
+  -Para las variables categóricas un gráfico de barras. Categoría numero de observaciones:
+  ![newplot](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/281c8f38-1c68-40b4-b1f1-58e7a53e1b56)
+  
+  ![newplot (1)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/4748717f-9ff8-47be-a6cb-9630d98541fa)
+  
+  ![newplot (2)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/5c9f745c-4320-42b7-ac35-d1ec0cbd2e95)
+  
+  ![newplot (3)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/1431a970-5d41-44f9-ab10-124f8778fbd2)
+
+  ![newplot (4)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/0bac5d9a-0b88-4518-99a6-f67d5b202f27)
+
+
+
+
+
+
+
 
     
 
