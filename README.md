@@ -133,8 +133,11 @@ Para el PIB en millones y el PIB per cápita en millones:
   -¿Cuántos componentes se deben utilizar para mantener el 90% de las características?: se deben utilizar 46 componentes
 
   -Crear una tabla para mostrar las primeras 5 caras utilizando, la mean face + los datos reconstruidos utilizando la primera componente, después con 3 componentes, después con las primeras 20 componentes, después con las componentes que explican el 95% de la varianza y por último con el numero de componentes que tiene el 99% de la varianza. ¿Qué se puedeconcluir de los resultados?:
+  
   ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/a20ef5b4-3b89-43ac-8c76-e7d65ea9b4e9)
-  se concluye que entre mas componentes yo utilize y se los sume a la media , mejor se vera la cara ademas , de que con 161 componentes ya estoy representando con exactitud el 99% de los datos por lo tanto es irrelevantes utilizar mas de 161 componentes.
+  se concluye que entre mas componentes yo utilize y se los sume a la media mejor se vera la cara ,ademas de que con 161 componentes ya estoy representando con exactitud el 99% de los datos por lo tanto es irrelevantes utilizar mas de 161 componentes.
+
+  4.**Utilizando el dataset del proyecto data/CARS.csv**
 
   -Para las variables categóricas un gráfico de barras. Categoría numero de observaciones:
   ![newplot](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/281c8f38-1c68-40b4-b1f1-58e7a53e1b56)
@@ -182,6 +185,8 @@ Para el PIB en millones y el PIB per cápita en millones:
 
   ![newplot (14)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/2bc3c2f7-885b-4ef4-b745-70e8dd95abba)
 
+  los boxplot me sirven para ver la variabilidad de los datos , si la caja es muy pequeña es por que quiere decir que los datos estan muy concentrados alrededor de la media o la mediana de los datos , por otro lado si el bigote es muy grande me representa que hay muchos datos que son  muy diferentes a los datos ubicados en el primer quartil o en el tercer quartil , es decir donde se ubica el 25% de los datos o donde se ubica el 75% de los datos , por otro lado si la caja es muy grande quiere decir que hay datos muy diferentes a los datos de la media o la mediana y por ultimos si los bigotes y la caja son muy grandes hay demasiada variabilidad en los datos.
+
   -Variables numéricas vas a crear un scatter plot.Explique cómo interpreta el gráfico:
   ![newplot (15)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/628723ec-d249-47ec-893d-425059371b75)
 
@@ -196,8 +201,37 @@ Para el PIB en millones y el PIB per cápita en millones:
   -Cree la matriz de correlación, cuales son las variables más importantes para explicar la variabilidad de MPG_City. Explique por qué el coeficiente es negativo o positivo:
   ![newplot (20)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/6f44a7e9-96ab-49fb-8151-152b19141eb9)
 
+  la variable mas importante para explicar la variabilidad de MPG_City es MPG_Highway , dado que explica su variabilidad en un 94,1 % , ademas de que los ceficientes son negativos o postivos para decir que son inversamentes propocional o propocional en la misma direccion , en otra palabras el signo solo me dice si crece una la otra también crece o si decrece una la otra decrece.
+
+  -¿Cuál es el valor de variable categórica con mayor correlación?:
+
+  Variable categórica con la mayor correlación: Invoice
+
+  -Cree la matriz de correlación nuevamente removiendo todas los modelos de carro que fueron catalogados como un outlier:
+  -Matriz Original:
+    
+|               | Invoice   | EngineSize | Cylinders | Horsepower | MPG_City  | ... |
+|---------------|-----------|------------|-----------|------------|-----------|-----|
+| Invoice       | 1.000000  | 0.564498   | 0.645226  | 0.823746   | -0.470442 | ... |
+| EngineSize    | 0.564498  | 1.000000   | 0.908002  | 0.787435   | -0.709471 | ... |
+| Cylinders     | 0.645226  | 0.908002   | 1.000000  | 0.810341   | -0.684402 | ... |
+| Horsepower    | 0.823746  | 0.787435   | 0.810341  | 1.000000   | -0.676699 | ... |
+| MPG_City      | -0.470442 | -0.709471  | -0.684402 | -0.676699  | 1.000000  | ... |
+| ...           | ...       | ...        | ...       | ...        | ...       | ... |
+
+- Matriz Filtrada:
+  
+|               | Invoice   | EngineSize | Cylinders | Horsepower | MPG_City  | ... |
+|---------------|-----------|------------|-----------|------------|-----------|-----|
+| Invoice       | 1.000000  | 0.564498   | 0.645226  | 0.823746   | -0.470442 | ... |
+| EngineSize    | 0.564498  | 1.000000   | 0.908002  | 0.787435   | -0.709471 | ... |
+| Cylinders     | 0.645226  | 0.908002   | 1.000000  | 0.810341   | -0.684402 | ... |
+| Horsepower    | 0.823746  | 0.787435   | 0.810341  | 1.000000   | -0.676699 | ... |
+| MPG_City      | -0.470442 | -0.709471  | -0.684402 | -0.676699  | 1.000000  | ... |
+| ...           | ...       | ...        | ...       | ...        | ...       | ... |
 
 
+No se observan cambios siginificativos en la correlacion , por lo que la correlacion no es sensible a los outliers.
 
 
 
