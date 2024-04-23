@@ -27,8 +27,11 @@ Realizar la exploración de los datos correlación, scatter plots, boxplots e hi
         si existen nulos dentro del dataframe , se deben eliminar con el metodo fillna de la libreria pandas
   1.3. Crear dummy variables para incluirlas en la correlación
         ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/310ad6cc-b877-4ec1-a447-8387f8637390)
+        
   1.4. Crear una correlación, que variables tienen un efecto positivo en el puntaje y cuales un efecto negativo.
+  
   1.1. ¿Qué variables son importantes para predecir el valor?
+  
         - ESTU_ESTADOCIVIL_Soltero
         - ESTU_ESTADOCIVIL_Unión libre
         - ESTU_VALORMATRICULAUNIVERSIDAD_Más de 7 millones
@@ -60,7 +63,9 @@ Realizar la exploración de los datos correlación, scatter plots, boxplots e hi
         - ESTU_NSE_INDIVIDUAL
         - ESTU_NSE_IES
         - edad
+        
     2.2. Entrenar un modelos de regresión
+    
 | Variable | Coeficiente | Error estándar | t     | P>|t|   | Intervalo de confianza (95%) |
 |----------|-------------|-----------------|-------|---------|-------------------------------|
 | const    | 150.9882    | 4.670           | 32.334| 0.000   | [141.834, 160.143]           |
@@ -69,10 +74,15 @@ Realizar la exploración de los datos correlación, scatter plots, boxplots e hi
 | ...      | ...         | ...             | ...   | ...     | ...                           |
 | edad     | -0.2863     | 0.078           | -3.693| 0.000   | [-0.438, -0.134]            |
 
+
+
   2.3. ¿Cuál es el mejor R squared? Cuál es el MAPE y el MSE.
+  
         training mse error:787.0441320191331
         training MAPE error:0.16826065130562573
+
   3. Remueva las variables que nos son relevantes
+     
         ESTU_ESTADOCIVIL_Unión libre
         ESTU_VALORMATRICULAUNIVERSIDAD_Más de 7 millones
         ESTU_PAGOMATRICULAPADRES_Si
@@ -92,14 +102,21 @@ Realizar la exploración de los datos correlación, scatter plots, boxplots e hi
         INST_COD_INSTITUCION
         ESTU_NSE_IES
         edad
-  4. Utilizando los datos de test medir el MAPE y el MSE de test. Qué tan diferentes son las métricas de training.
+
+     
+  5. Utilizando los datos de test medir el MAPE y el MSE de test. Qué tan diferentes son las métricas de training.
         test mse error:1160.835235350644
         test MAPE error:0.20672507574194635
-  5. Describa en palabras que dice el modelo cuales son los principales hallazgos.
+
+     
+  7. Describa en palabras que dice el modelo cuales son los principales hallazgos.
         el modelo es bueno ya que presenta un MAPE 20,67% y un mean square error del 33,94% para test lo cual esta alejado de una regresion perfecta          , pero esta bien.
 
 Utilizar los datos para crear un modelo de KNN que permita predecir el puntaje por estudiante. Utilizar el dataset de la carpeta datos. ‘Pruebas_saber_2023.xlsx’ y las mismas transformaciones dle punto anterior.
     1) Hacer pruebas con 5, 10, 20 y 30 vecinos. Seleccione el numero de vecinos basado en el error de test MSE.
+
+
+    
 |   | MSE Train | MAPE Train | MSE Test | MAPE Test | Vecinos |
 |---|-----------|------------|----------|-----------|---------|
 | 0 | 610.420   | 0.146      | 914.107  | 0.183     | 5       |
@@ -107,7 +124,9 @@ Utilizar los datos para crear un modelo de KNN que permita predecir el puntaje p
 | 2 | 732.497   | 0.162      | 824.524  | 0.175     | 20      |
 | 3 | 752.367   | 0.164      | 818.616  | 0.174     | 30      |
 
+
     2) Describa cual es mejor modelo entre la regresion o el knn
+    
         El Knn es mejor dado que , para el MAPE en test fue menor alrededor 17,4% si se toman 30 vecinos lo cual disminuye el error casi en un 3% ,
         ademas que el Mean Square Error tambien fue menor de un 28,61% una disminucion de casi un 5%.
     
