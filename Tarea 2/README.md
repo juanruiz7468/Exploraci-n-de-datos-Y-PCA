@@ -14,8 +14,11 @@ columnas.
 | UNIVERSIDAD-COLEGIO MAYOR DE CUNDINAMARCA-BOGOTÁ D.C. | 154.793233                | 145.127820                | 153.289474      | 146.759398               | 150.387218  |
 | UNIVERSITARIA AGUSTINIANA- UNIAGUSTINIANA-BOGOTÁ D.C.  | 144.581651                | 131.590826                | 154.227523      | 141.267890               | 142.963303  |
 | UNIVERSITARIA VIRTUAL INTERNACIONAL-BOGOTÁ D.C.        | 137.221477                | 128.932886                | 147.107383      | 142.281879               | 137.147651  |
-Crear 5 clusters. Seleccione colocar el centroide de cada cluster, describa que significada cada cluster. Colocar el nombre d ela institucion mas cercana al centroide.
+  
+  Crear 5 clusters. Seleccione colocar el centroide de cada cluster, describa que significada cada cluster. Colocar el nombre d ela institucion mas     cercana al centroide.
+
 https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/blob/main/Tarea%202/K_means.xlsx
+
 Realizar la exploración de los datos correlación, scatter plots, boxplots e histogramas
   1.1. ¿Qué variables son importantes para predecir el valor?
         ![newplot 24](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/281c8f38-1c68-40b4-b1f1-58e7a53e1b56)
