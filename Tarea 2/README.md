@@ -21,4 +21,8 @@ https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/blob/main/Tarea%202/K
 
 Realizar la exploración de los datos correlación, scatter plots, boxplots e histogramas
   1.1. ¿Qué variables son importantes para predecir el valor?
-        ![newplot 24](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/281c8f38-1c68-40b4-b1f1-58e7a53e1b56)
+        ![newplot (24)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/4b5fee05-6b49-4c3d-a171-8dee5bc0469e)
+        ![newplot (25)](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/6f24c740-c6c4-4191-8022-d9b7bf6722c9)
+
+
+        
