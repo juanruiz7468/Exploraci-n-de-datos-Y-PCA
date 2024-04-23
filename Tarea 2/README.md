@@ -81,7 +81,7 @@ Realizar la exploración de los datos correlación, scatter plots, boxplots e hi
         training mse error:787.0441320191331
         training MAPE error:0.16826065130562573
 
-  3. Remueva las variables que nos son relevantes
+  3. Remueva las variables que son relevantes
      
         ESTU_ESTADOCIVIL_Unión libre
         ESTU_VALORMATRICULAUNIVERSIDAD_Más de 7 millones
