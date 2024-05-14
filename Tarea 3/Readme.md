@@ -19,6 +19,6 @@ Estamos organizando este conjunto de datos como una competencia de Kaggle para d
 
     solo obtuvimos un accuracy de casi el 20% , lo cual es muy bajo.
 
-- **2** Red Convulucional
+- **2** Red Convolucional
 
     
