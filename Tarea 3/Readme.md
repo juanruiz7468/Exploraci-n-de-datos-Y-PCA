@@ -17,6 +17,6 @@ Estamos organizando este conjunto de datos como una competencia de Kaggle para d
 
   ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/8450dc32-8eaf-4db4-b9d8-598b773f7339)
 
-      solo obtuvimos un accuracy de casi el 20% , lo cual es muy bajo.
+    solo obtuvimos un accuracy de casi el 20% , lo cual es muy bajo.
 
     
