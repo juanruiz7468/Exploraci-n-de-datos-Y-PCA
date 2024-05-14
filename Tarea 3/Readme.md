@@ -1,4 +1,4 @@
-
+# Clasificacion Dataset plantas
 ¿Se puede diferenciar una maleza de una plántula de cultivo?
 
 La capacidad de hacerlo de manera efectiva puede significar mejores rendimientos de los cultivos y una mejor administración del medio ambiente.
