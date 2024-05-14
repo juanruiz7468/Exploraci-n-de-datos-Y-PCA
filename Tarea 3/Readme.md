@@ -8,3 +8,5 @@ El grupo de Procesamiento de Señales de la Universidad de Aarhus, en colaboraci
 Estamos organizando este conjunto de datos como una competencia de Kaggle para darle una exposición más amplia, para dar a la comunidad la oportunidad de experimentar con diferentes técnicas de reconocimiento de imágenes, así como para proporcionar un lugar para la polinización cruzada de ideas.
 
 ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/9eb07fc4-ff83-4a02-a6bf-bf5ea4fe08af)
+
+  1. Primero tratemos de hacerlo con una red neuronal sencilla 
