@@ -4,3 +4,5 @@
 La capacidad de hacerlo de manera efectiva puede significar mejores rendimientos de los cultivos y una mejor administración del medio ambiente.
 
 El grupo de Procesamiento de Señales de la Universidad de Aarhus, en colaboración con la Universidad del Sur de Dinamarca, ha publicado recientemente un conjunto de datos que contiene imágenes de aproximadamente 960 plantas únicas pertenecientes a 12 especies en varias etapas de crecimiento.
+
+Estamos organizando este conjunto de datos como una competencia de Kaggle para darle una exposición más amplia, para dar a la comunidad la oportunidad de experimentar con diferentes técnicas de reconocimiento de imágenes, así como para proporcionar un lugar para la polinización cruzada de ideas.
