@@ -9,4 +9,4 @@ Estamos organizando este conjunto de datos como una competencia de Kaggle para d
 
 ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/9eb07fc4-ff83-4a02-a6bf-bf5ea4fe08af)
 
-- 1. **2** Rede Neuronal Sencilla
+- **1** Rede Neuronal Sencilla
