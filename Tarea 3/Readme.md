@@ -20,7 +20,8 @@ Estamos organizando este conjunto de datos como una competencia de Kaggle para d
     solo obtuvimos un accuracy de casi el 20% , lo cual es muy bajo.
 
 - **2** Red Convolucionales:
-          utiliando las mismas imagenes con el mismo tamaño y tambien en blanco y negro , se diseña una red convulucional que aprenda lo mas                    importante de las imagenes.La arquitectura de la red convulucional es la primera capa de entrada una convolucion en dos dimensiones
+  
+          utilizando las mismas imagenes con el mismo tamaño y tambien en blanco y negro , se diseña una red convulucional que aprenda lo mas                    importante de las imagenes.La arquitectura de la red convulucional es la primera capa de entrada una convolucion en dos dimensiones
           de imagenese 30 x 30 con un solo canal ,una funcion de activacion de relu y 32 filtros. para la siguiente capa se hizo un maxpooling
           en 2 dimensiones con kernels de 2x2 , en las siguientes capas se siguieron los mismos pasos solo se aumentaron el numero de filtros en las            etapas de convolucion.
   
