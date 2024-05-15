@@ -10,14 +10,14 @@ Estamos organizando este conjunto de datos como una competencia de Kaggle para d
 ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/9eb07fc4-ff83-4a02-a6bf-bf5ea4fe08af)
 
 - **1** Red Neuronal Sencilla:
-    utilizando imagenes de 30x30 , en blanco y negro con 5544 imagenes para entrenar una red neuronal con una capa de entrada de 5000 neuronas, con         entradas de 900 pixeles por cada imagen , utilizando un optimizador de adam y una capa de salida de 12 neuronas ,además de una funcion de               activacion de softmax.
-    la función de perdida utilizada es la cross entropy y las metricas utilizadas para observar la calidad del entrenaiento es el accuraccy.
+  utilizando imagenes de 30x30 , en blanco y negro con 5544 imagenes para entrenar una red neuronal con una capa de entrada de 5000 neuronas, con       entradas de 900 pixeles por cada imagen , utilizando un optimizador de adam y una capa de salida de 12 neuronas ,además de una funcion de             activacion de softmax.
+  la función de perdida utilizada es la cross entropy y las metricas utilizadas para observar la calidad del entrenaiento es el accuraccy.
 
-    en la siguiente grafica observamos cuanto fue el accuracy del modelo con respecto a los EPOCHS Utilizados:
+  en la siguiente grafica observamos cuanto fue el accuracy del modelo con respecto a los EPOCHS Utilizados:
 
   ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/8450dc32-8eaf-4db4-b9d8-598b773f7339)
 
-    solo obtuvimos un accuracy de casi el 20% , lo cual es muy bajo.
+  solo obtuvimos un accuracy de casi el 20% , lo cual es muy bajo.
 
 - **2** Red Convolucionales:
   
