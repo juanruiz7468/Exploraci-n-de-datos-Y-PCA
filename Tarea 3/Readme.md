@@ -23,8 +23,10 @@ Estamos organizando este conjunto de datos como una competencia de Kaggle para d
           utiliando las mismas imagenes con el mismo tamaño y tambien en blanco y negro , se diseña una red convulucional que aprenda lo mas                    importante de las imagenes.La arquitectura de la red convulucional es la primera capa de entrada una convolucion en dos dimensiones
           de imagenese 30 x 30 con un solo canal ,una funcion de activacion de relu y 32 filtros. para la siguiente capa se hizo un maxpooling
           en 2 dimensiones con kernels de 2x2 , en las siguientes capas se siguieron los mismos pasos solo se aumentaron el numero de filtros en las            etapas de convolucion.
+  
           por ultimo se paso la imagen de cada filtro a un vector para luego entrarla a una red neuronal , que en su primera capa de entrada tiene              5000 neuronas y en la capa de salida 12 ( siguiendo los mismos parametros que la red neuronal anteriros , solo cambia el optimizador que en
           este caso es el rmsprop).
+  
           obtuvimos los siguientes resultados medidas para los datos de entrenamiento y la metrica del accuracy:
   
 ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/6449fc3d-93a6-47ef-b357-f4b0e84a55d1)
