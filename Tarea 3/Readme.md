@@ -28,6 +28,7 @@ Estamos organizando este conjunto de datos como una competencia de Kaggle para d
           este caso es el rmsprop).
 
           obtuvimos los siguientes resultados medidas para los datos de entrenamiento y la metrica del accuracy:
+  
 ![image](https://github.com/juanruiz7468/Exploraci-n-de-datos-Y-PCA/assets/126533316/6449fc3d-93a6-47ef-b357-f4b0e84a55d1)
 
 
